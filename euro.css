@@ -1,0 +1,144 @@
+body{  
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+}
+#recordh1{
+    padding-bottom: 20px;
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:20px
+}
+#history{
+    position: relative;
+    top:-45px;
+    text-align:center;
+    color:silver;
+    font-size: 75px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#jumptocontent a{
+    position: absolute;
+    left:-1000px
+}
+#jumptocontent a:focus{
+    position: absolute;
+    left:0px
+}
+#eurobackground{
+    display: block;
+    line-height:400%;
+    background-image: url("europic.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}           
+#eurobackground h1{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top:60px;
+    text-align: center;
+}
+#content h2{
+    text-align: left;
+    font-size: 70px;
+    color:white;
+    position: relative;
+    top:-60px
+}
+.historybackground{
+    max-width: 1200px;
+    display: flex;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+}
+.historybackground img{
+    width: 410px;
+    height: 350px;
+}
+.section{
+    display: inline-block;
+    position: relative;
+    top:100px;
+}
+#content .section img{
+    width:500px;
+    height: 450px;
+    border: 3px solid black;
+    margin-left: 100px;
+}
+#content .section h2{
+    position: relative;
+    top:-150px;
+    right: -110px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    place-items: center;
+    align-items: baseline;
+}
+.container .record1 img{
+    width:200px;
+    height:150px;
+    border:dotted black 3px;
+    transition-property: all;
+    transition-duration: .3s;
+    transition-delay: .2s;
+    transition-timing-function: linear;
+}
+.container .record1 img:hover{
+    border:solid white 3px;
+    border-radius: 30%;
+}
+.container .record1 .statsgermany{
+    display: none;
+}
+.container .record1:hover .statsgermany{
+    display: block;
+    text-align: center;
+}
+.container .record2 img{
+    width:200px;
+    height:150px;
+    border:dotted black 3px;
+    transition-property: all;
+    transition-duration: .3s;
+    transition-delay: .2s;
+    transition-timing-function: linear;
+}
+.container .record2 img:hover{
+    border:solid orange  3px;
+    border-radius: 30%;
+}
+.container .record2 .statsnetherlands{
+    display: none;
+}
+.container .record2:hover .statsnetherlands{
+    display: block;
+    text-align: center;
+}
+.container .record3 img{
+    width:200px;
+    height:150px;
+    border:dotted black 3px;
+    transition-property: all;
+    transition-duration: .3s;
+    transition-delay: .2s;
+    transition-timing-function: linear;
+}
+.container .record3 img:hover{
+    border:solid yellow  3px;
+    border-radius: 30%;
+}
+.container .record3 .statsspain{
+    display: none;
+}
+.container .record3:hover .statsspain{
+    display: block;
+    text-align: center;
+}
+
